@@ -10,6 +10,6 @@
 	}  
 	  
 	public static void main(String args[]){  
-	 new Exp4().fact(5);//calling method with annonymous object  
+	 new Exp5().fact(5);//calling method with annonymous object  
 	}  
 	}  
