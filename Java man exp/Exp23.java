@@ -1,7 +1,7 @@
 //The this keyword can be passed as argument in the constructor call.
-	class Exp23
+	public class Exp23
 	{  
-	  A4 obj;  
+	    
 	  Exp23(A4 obj)
 	  {  
 	    this.obj=obj;  
@@ -12,12 +12,12 @@
 	  }  
 	}  
 	  
-	class A4
+	public class A4
 	{  
 	  int data=10;  
 	  A4()
 	  {  
-	   Exp23 b=new Exp23(this);  
+	   A4 b=new A4(this);  
 	   b.display();  
 	  }  
 	 public static void main(String[] args)
