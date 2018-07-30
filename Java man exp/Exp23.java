@@ -12,7 +12,7 @@
 	  }  
 	}  
 	  
-	public class A4
+	class A4 extends Exp23
 	{  
 	  int data=10;  
 	  A4()
